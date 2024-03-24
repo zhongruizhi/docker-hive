@@ -1,6 +1,6 @@
-FROM ruizhizhong058/hadoop-base:3.3.6-java8
+FROM zhongruizhi/hadoop-base:3.3.6-java8-amd64
 
-LABEL MAINTAINER="Ruizhi Zhong <ruizhi.zhong@zoom.us>"
+LABEL MAINTAINER="Ruizhi Zhong <ruizhi.zhong@outlook.com>"
 
 # Allow buildtime config of HIVE_VERSION
 ARG HIVE_VERSION
