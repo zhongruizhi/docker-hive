@@ -42,7 +42,7 @@ services:
   hive-metastore-postgresql:
     image: zhongruizhi/hive-metastore-postgresql:16.2-amd64
   presto-coordinator:
-    image: prestodb/presto:0.285-amd64
+    image: prestodb/presto:0.285
     ports:
       - "8080:8080"
 
