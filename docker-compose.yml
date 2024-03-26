@@ -40,7 +40,7 @@ services:
     ports:
       - "9083:9083"
   hive-metastore-postgresql:
-    image: zhongruizhi/hive-metastore-postgresql:16.2
+    image: zhongruizhi/hive-metastore-postgresql:16.2-aarch64
   presto-coordinator:
     image: prestodb/presto:0.285-arm64
     ports:
